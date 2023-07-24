@@ -71,7 +71,6 @@
 		666BD2C72A6BAA6B0096F923 = {
 			isa = PBXGroup;
 			children = (
-				6608926C2A6E41D800070F24 /* FeedItemsMapper.swift */,
 				666BD2D32A6BAA6B0096F923 /* EssentialFeed */,
 				666BD2DD2A6BAA6B0096F923 /* EssentialFeedTests */,
 				666BD2D22A6BAA6B0096F923 /* Products */,
@@ -109,8 +108,8 @@
 		666BD2ED2A6BAC350096F923 /* Feed Feature */ = {
 			isa = PBXGroup;
 			children = (
-				666BD2EB2A6BAB910096F923 /* FeedLoader.swift */,
 				666BD2E92A6BAA8F0096F923 /* FeedItem.swift */,
+				666BD2EB2A6BAB910096F923 /* FeedLoader.swift */,
 			);
 			path = "Feed Feature";
 			sourceTree = "<group>";
@@ -119,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				666BD2F12A6C4C3C0096F923 /* RemoteFeedLoader.swift */,
+				6608926C2A6E41D800070F24 /* FeedItemsMapper.swift */,
 				6608926A2A6E419400070F24 /* HTTPClient.swift */,
 			);
 			path = "Feed API";
