@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6608926B2A6E419400070F24 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608926A2A6E419400070F24 /* HTTPClient.swift */; };
+		6608926D2A6E41D800070F24 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6608926C2A6E41D800070F24 /* FeedItemsMapper.swift */; };
 		666BD2DA2A6BAA6B0096F923 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666BD2D12A6BAA6B0096F923 /* EssentialFeed.framework */; };
 		666BD2DF2A6BAA6B0096F923 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666BD2DE2A6BAA6B0096F923 /* EssentialFeedTests.swift */; };
 		666BD2E02A6BAA6B0096F923 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 666BD2D42A6BAA6B0096F923 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		6608926A2A6E419400070F24 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		6608926C2A6E41D800070F24 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		666BD2D12A6BAA6B0096F923 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		666BD2D42A6BAA6B0096F923 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		666BD2D92A6BAA6B0096F923 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,7 @@
 		666BD2C72A6BAA6B0096F923 = {
 			isa = PBXGroup;
 			children = (
+				6608926C2A6E41D800070F24 /* FeedItemsMapper.swift */,
 				666BD2D32A6BAA6B0096F923 /* EssentialFeed */,
 				666BD2DD2A6BAA6B0096F923 /* EssentialFeedTests */,
 				666BD2D22A6BAA6B0096F923 /* Products */,
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6608926D2A6E41D800070F24 /* FeedItemsMapper.swift in Sources */,
 				666BD2EC2A6BAB910096F923 /* FeedLoader.swift in Sources */,
 				666BD2F22A6C4C3C0096F923 /* RemoteFeedLoader.swift in Sources */,
 				6608926B2A6E419400070F24 /* HTTPClient.swift in Sources */,
