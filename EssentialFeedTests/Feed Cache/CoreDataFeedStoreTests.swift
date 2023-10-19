@@ -71,5 +71,4 @@ class CoreDataFeedStoreTests: XCTestCase, FeedStoreSpecs {
         trackForMemoryLeaks(sut, file: file, line: line)
         return sut
     }
-
 }
